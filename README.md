@@ -13,13 +13,19 @@ This is Tokopedia Play clone for frontend final project gigih 3.0
 ## How to Install & Run
 
 1. Clone the repository:
-```https://github.com/RafiansyahDS/FrontEnd_FinalProject.git```
+```
+https://github.com/RafiansyahDS/FrontEnd_FinalProject.git
+```
 
 2. Install the required dependencies:
-```npm install```
+```
+npm install
+```
 
 3. Start the development server:
-```npm start```
+```
+npm start
+```
 
 4. Open your web browser and go to `http://localhost:3000` to access the app.
 
