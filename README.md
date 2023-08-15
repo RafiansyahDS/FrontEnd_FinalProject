@@ -13,7 +13,7 @@ This is Tokopedia Play clone for frontend final project gigih 3.0
 ## API
 
 The app interacts with a backend API to retrieve and submit data. 
-change the `API_BASE_URL` to the Backend URL. You can check and run the Backend for this project on 
+change the `API_BASE_URL` to the Backend URL in `ApiConfig.js` file. You can check and run the Backend for this project on 
 `https://github.com/RafiansyahDS/BackEnd_FinalProject` the Backend will run on port 3001, after that change the `API_BASE_URL` to `http://localhost:3001/api`
 The API endpoints include:
 
