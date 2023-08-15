@@ -22,14 +22,14 @@ https://github.com/RafiansyahDS/FrontEnd_FinalProject.git
 npm install
 ```
 
-3. Run the Backend server you can check on this repository:
-```
-https://github.com/RafiansyahDS/BackEnd_FinalProject
-```
-
-4. Start the development server:
+3. Start the development server:
 ```
 npm start
+```
+
+4. Run the Backend server you can check on this repository:
+```
+https://github.com/RafiansyahDS/BackEnd_FinalProject
 ```
 
 5. Open your web browser and go to `http://localhost:3000` to access the app.
