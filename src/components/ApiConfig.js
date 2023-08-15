@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://127.0.0.1:3001/api'; // Your base API URL
+const API_BASE_URL = 'https://rafiansyahdwis.up.railway.app/api'; // Your base API URL
 
 export const API_ENDPOINTS = {
   videoThumbnails: `${API_BASE_URL}/video-thumbnails`,
