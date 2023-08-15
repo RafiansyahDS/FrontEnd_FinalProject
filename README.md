@@ -10,6 +10,20 @@ This is Tokopedia Play clone for frontend final project gigih 3.0
 - Display a list of comments associated with the video details.
 - Allow users to submit new comments for each video.
 
+## API
+
+The app interacts with a backend API to retrieve and submit data. 
+change the `API_BASE_URL` to the Backend URL. You can check and run the Backend for this project on 
+`https://github.com/RafiansyahDS/BackEnd_FinalProject` the Backend will run on port 3001, after that change the `API_BASE_URL` to `http://localhost:3001/api`
+The API endpoints include:
+
+- `/video-thumbnails`: Fetches video thumbnails.
+- `/products/:videoID`: Fetches products related to a specific video.
+- `/comments/:videoID`: Fetches comments related to a specific video.
+- `/submit-comment`: Submits a new comment.
+
+For more details on the API configuration, refer to the `ApiConfig.js` file.
+
 ## How to Install & Run
 
 1. Clone the repository:
@@ -33,21 +47,6 @@ https://github.com/RafiansyahDS/BackEnd_FinalProject
 ```
 
 5. Open your web browser and go to `http://localhost:3000` to access the app.
-
-## Schema Database
-
-The app interacts with a backend API to retrieve and submit data. 
-change the `API_BASE_URL` to the Backend URL, You can check and run the Backend for this project on 
-`https://github.com/RafiansyahDS/BackEnd_FinalProject`
-the Backend will run on port 3001, and the API will be on `http://localhost:3001/api`
-The API endpoints include:
-
-- `/video-thumbnails`: Fetches video thumbnails.
-- `/products/:videoID`: Fetches products related to a specific video.
-- `/comments/:videoID`: Fetches comments related to a specific video.
-- `/submit-comment`: Submits a new comment.
-
-For more details on the API configuration, refer to the `ApiConfig.js` file.
 
 ## Technologies Used
 
