@@ -1,0 +1,142 @@
+.product-list,
+.comment-list{
+  overflow-y: auto;
+  -ms-overflow-style: none; /* IE */
+  scrollbar-width: none; /* Firefox */  
+}
+
+.product-list::-webkit-scrollbar,
+.comment-list::-webkit-scrollbar{
+    display: none; /* Chrome */
+}
+
+.comment-section h3,
+.product-list h3{
+  padding-bottom: 10px;
+  color: #fff;
+}
+
+.comment-section,
+.product-list{
+    width: calc(200px + 30%);
+    padding: 20px 20px 0 20px;    
+}
+
+.product-item,
+.comment {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;  
+  word-wrap: break-word;  
+  color: #fff;
+  background-color: #464646;
+}
+
+.product-item{
+  width:250px;
+  text-align: center;
+  display: block;  
+}
+
+.product-item:hover{
+  cursor: pointer;
+}
+
+.comment{
+  width: 300px;
+}
+
+.comment-list {
+  float: right;  
+  height: 450px;
+}
+
+.comment:hover{
+  cursor: default;
+}
+
+.comment-form {
+  clear: both;  
+  padding: 10px;
+  border-top: 1px solid #ccc;
+}
+
+.comment-form h2 {
+  margin-top: 0;
+}
+
+.comment-form form {
+  display: flex;  
+  flex-direction: column;
+}
+
+.comment-form input,
+.comment-form textarea,
+.comment-form button {
+  margin-bottom: 10px;
+}
+
+.comment-form textarea {
+    resize: none;
+    height: 50px;
+}
+
+.nameinput{
+  border-radius: 7px;
+  font-size: 16px;
+  padding: 3px 10px;
+}
+
+.commentinput{
+  border-radius: 7px;
+  font-size: 16px;
+  padding: 3px 10px;
+}
+
+.btn-form{
+  background-color: #77ff01;
+  border-radius: 7px;
+  font-size: 16px;
+  padding: 7px;
+  font-weight: bold;  
+}
+
+.btn-form:hover{
+  cursor: pointer;
+  user-select: none;
+}
+
+.video-container {
+  text-align: center;
+  width: 100%;
+  margin: 0 10px;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.video-container iframe {
+  width: 100%;
+  max-width: 800px;
+  height: 450px;
+}
+
+.main-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.heading{
+    color: #ffffff;
+    margin: 10px 20px 0 20px;            
+}
+
+.back-button{
+  text-decoration: none;
+  color: #ffffff;
+  margin-right: 15px;
+  font-size: 40px;
+}
+
